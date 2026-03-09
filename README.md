@@ -1,6 +1,8 @@
 # The Core Beneath
 
-## 문서 메타
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Core Beneath Maintainers
@@ -9,6 +11,8 @@
   - [문서 허브](docs/README.md)
   - [기여 가이드](CONTRIBUTING.md)
   - [AI Agent 진입점](AGENTS.md)
+
+</details>
 
 ## 목적
 이 문서는 저장소의 공식 입구 문서입니다. 처음 참여하는 사람과 AI Agent가

@@ -1,6 +1,6 @@
 # 상위 아키텍처 (v0 Baseline)
 
-## 문서 메타
+## 문서 정보
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Tech Lead

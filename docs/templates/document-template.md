@@ -1,6 +1,6 @@
 # 문서 템플릿
 
-## 문서 메타
+## 문서 정보
 - Status: Template
 - Last Updated: 2026-03-09
 - Owner: Documentation Maintainers
@@ -21,7 +21,7 @@
 ```md
 # 문서 제목
 
-## 문서 메타
+## 문서 정보
 - Status: Draft | Active | Deprecated
 - Last Updated: YYYY-MM-DD
 - Owner: 팀/담당자

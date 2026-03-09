@@ -1,6 +1,6 @@
 # 게임 개요
 
-## 문서 메타
+## 문서 정보
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Game Design + Tech Design

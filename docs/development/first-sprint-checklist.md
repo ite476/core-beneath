@@ -1,6 +1,6 @@
 # 첫 구현 스프린트 체크리스트
 
-## 문서 메타
+## 문서 정보
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Tech Lead + Product Lead

@@ -1,6 +1,6 @@
 # MVP 범위
 
-## 문서 메타
+## 문서 정보
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Product + Tech Lead

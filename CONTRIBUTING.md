@@ -1,6 +1,6 @@
 # 기여 가이드
 
-## 문서 메타
+## 문서 정보
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Core Beneath Maintainers
@@ -42,7 +42,8 @@
 
 ### 이슈/PR 분류 규칙
 - 라벨/마일스톤 운영 규칙은 [docs/repository-workflow.md](docs/repository-workflow.md)를 따릅니다.
-- PR 생성 시 `유형`, `영역`, `상태`, `우선순위` 라벨을 최소 1개씩 적용합니다.
+- 일반 PR은 라벨 3개 이내(`유형` + `상태` + `영역/우선순위`)를 권장합니다.
+- 초기 세팅/대규모 구조 변경 PR은 라벨 4개 이상을 예외적으로 허용합니다.
 - PR은 반드시 마일스톤 1개를 지정합니다.
 
 ### 문서 동기화 필수 규칙
