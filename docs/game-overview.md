@@ -4,7 +4,7 @@
 <summary>문서 정보 (유지보수용)</summary>
 
 - Status: Active
-- Last Updated: 2026-03-09
+- Last Updated: 2026-03-10
 - Owner: Game Design + Tech Design
 - Source of Truth: docs/game-overview.md
 - Related Docs:
@@ -56,6 +56,11 @@ The Core Beneath is a compact, goal-driven automation game prototype where
 players build industrial systems to extract planet-core energy and escape.
 The project emphasizes a complete loop over content volume.
 
+### 이벤트 로그 용량 목표 (MVP 가정)
+- 평균적인 1회 플레이 기준, 이벤트 로그는 `평균 1MB/h 이하`를 1차 목표로 둡니다.
+- 위 목표는 상태 JSON + 행위 로그 분리 저장 전략을 전제로 합니다.
+- 목표를 초과하면 샘플링/압축/바이너리 직렬화 우선순위를 높여 보완합니다.
+
 ### 문서 수정 트리거
 - 게임 최종 목표(탈출 조건)가 바뀔 때
 - 플레이 경험 단계 또는 핵심 디자인 원칙이 바뀔 때
@@ -65,13 +70,15 @@ The project emphasizes a complete loop over content volume.
 - 프로젝트의 중심 가치는 "완결된 자동화 경험"입니다.
 - Planet Core 기반 탈출을 단일 엔드 목표로 유지합니다.
 - PoC MVP의 목표 플레이타임은 2~4시간으로 설정합니다.
+- 이벤트 로그 용량은 평균 플레이 기준 1MB/h 이하를 목표로 관리합니다.
 
 ## 미해결 이슈
 - 엔딩 타임랩스 카메라 연출(줌인/아웃, 플레이어 궤적/이벤트 중심 추적) 범위 확정(TBD)
-- 이벤트 로그 저장 용량 및 직렬화 전략 세부안 확정(TBD)
+- 이벤트 로그 1MB/h 목표 검증 시나리오/계측 기준 확정(TBD)
 
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
+| 2026-03-10 | 이벤트 로그 용량 목표(평균 1MB/h) 및 검증 이슈 반영 | Codex |
 | 2026-03-09 | PoC MVP 플레이타임(2~4시간) 및 타임랩스 검토 항목 반영 | Codex |
 | 2026-03-09 | 초기 게임 개요 문서 작성 | Codex |
