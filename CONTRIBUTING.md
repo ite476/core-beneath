@@ -9,6 +9,7 @@
   - [프로젝트 입구](README.md)
   - [문서 허브](docs/README.md)
   - [문서 유지보수 정책](docs/document-maintenance.md)
+  - [저장소 운영 워크플로](docs/repository-workflow.md)
   - [PR 템플릿](.github/PULL_REQUEST_TEMPLATE.md)
 
 ## 목적
@@ -38,6 +39,11 @@
 - 예시:
   - `문서: 저장소 입구 및 문서 허브 구조 정비`
   - `CI: 문서 품질 게이트 워크플로 추가`
+
+### 이슈/PR 분류 규칙
+- 라벨/마일스톤 운영 규칙은 [docs/repository-workflow.md](docs/repository-workflow.md)를 따릅니다.
+- PR 생성 시 `유형`, `영역`, `상태`, `우선순위` 라벨을 최소 1개씩 적용합니다.
+- PR은 반드시 마일스톤 1개를 지정합니다.
 
 ### 문서 동기화 필수 규칙
 - 기능/설계/범위가 바뀌면 관련 문서를 같은 PR에서 갱신합니다.

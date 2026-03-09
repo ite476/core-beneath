@@ -36,6 +36,7 @@
 | 개발 착수 | [development/first-sprint-checklist.md](development/first-sprint-checklist.md) | 첫 구현 스프린트 체크리스트 |
 | 운영 규약 | [document-style-guide.md](document-style-guide.md) | 문서 작성 규칙 |
 | 운영 규약 | [document-maintenance.md](document-maintenance.md) | 문서 최신성 유지 프로세스 |
+| 운영 규약 | [repository-workflow.md](repository-workflow.md) | 라벨/마일스톤/PR 운영 기준 |
 | 운영 규약 | [templates/document-template.md](templates/document-template.md) | 표준 문서 템플릿 |
 
 ### 읽는 순서 (고정)
