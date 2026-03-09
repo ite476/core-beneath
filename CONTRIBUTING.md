@@ -2,7 +2,7 @@
 
 ## 문서 메타
 - Status: Active
-- Last Updated: 2026-03-10
+- Last Updated: 2026-03-09
 - Owner: Core Beneath Maintainers
 - Source of Truth: CONTRIBUTING.md
 - Related Docs:
@@ -66,5 +66,5 @@
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
-| 2026-03-10 | 커밋 컨벤션(한글 제목/본문) 규칙 추가 | Codex |
+| 2026-03-09 | 커밋 컨벤션(한글 제목/본문) 규칙 추가 | Codex |
 | 2026-03-09 | 초기 기여 가이드 작성 | Codex |
