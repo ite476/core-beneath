@@ -1,6 +1,8 @@
 # 문서 허브
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Core Beneath Maintainers
@@ -9,6 +11,8 @@
   - [프로젝트 입구](../README.md)
   - [문서 스타일 가이드](document-style-guide.md)
   - [문서 유지보수 정책](document-maintenance.md)
+
+</details>
 
 ## 목적
 이 문서는 `core-beneath` 저장소의 공식 문서 인덱스입니다. 독자와 AI Agent가

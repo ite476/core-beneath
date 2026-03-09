@@ -1,6 +1,8 @@
 # 현재 스프린트
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Product Lead + Tech Lead
@@ -9,6 +11,8 @@
   - [로드맵](roadmap.md)
   - [Unity 환경 설정](../development/unity-setup.md)
   - [첫 스프린트 체크리스트](../development/first-sprint-checklist.md)
+
+</details>
 
 ## 목적
 현재 시점에서 가장 먼저 수행할 작업을 명확히 하여 개발 착수를 준비합니다.

@@ -1,6 +1,8 @@
 # 저장소 운영 워크플로
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Repository Maintainers
@@ -9,6 +11,8 @@
   - [기여 가이드](../CONTRIBUTING.md)
   - [문서 유지보수 정책](document-maintenance.md)
   - [현재 스프린트](tasks/current-sprint.md)
+
+</details>
 
 ## 목적
 GitHub 이슈/PR 운영에서 라벨, 마일스톤, PR 본문을 일관되게 관리하기 위한 기준을

@@ -1,6 +1,8 @@
 # 첫 구현 스프린트 체크리스트
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Tech Lead + Product Lead
@@ -9,6 +11,8 @@
   - [Unity 개발 환경 설정](unity-setup.md)
   - [현재 스프린트](../tasks/current-sprint.md)
   - [상위 아키텍처](../architecture.md)
+
+</details>
 
 ## 목적
 개발 시작 단계에서 반드시 완료해야 할 작업을 체크리스트로 고정합니다.

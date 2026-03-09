@@ -1,6 +1,8 @@
 # 프로젝트 구조 원칙
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Tech Lead
@@ -9,6 +11,8 @@
   - [상위 아키텍처](../architecture.md)
   - [코딩 표준](coding-standards.md)
   - [Unity 개발 환경 설정](unity-setup.md)
+
+</details>
 
 ## 목적
 Unity 프로젝트의 폴더 구조 기준을 정의하여 파일 탐색성과 협업 효율을 높입니다.

@@ -1,6 +1,8 @@
 # Unity 개발 환경 설정
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Tech Lead
@@ -9,6 +11,8 @@
   - [프로젝트 구조 원칙](project-structure.md)
   - [코딩 표준](coding-standards.md)
   - [첫 스프린트 체크리스트](first-sprint-checklist.md)
+
+</details>
 
 ## 목적
 Unity/C# 기반 개발을 시작하기 위한 최소 환경을 표준화합니다.

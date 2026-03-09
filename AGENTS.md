@@ -1,6 +1,8 @@
 # AI Agent 운영 가이드
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Core Beneath Maintainers
@@ -9,6 +11,8 @@
   - [문서 허브](docs/README.md)
   - [문서 스타일 가이드](docs/document-style-guide.md)
   - [문서 유지보수 정책](docs/document-maintenance.md)
+
+</details>
 
 ## 목적
 이 문서는 이 저장소에 기여하는 AI Agent의 단일 진입점입니다. 모든 Agent는
@@ -25,6 +29,12 @@
 3. [docs/document-style-guide.md](docs/document-style-guide.md)
 4. [docs/document-maintenance.md](docs/document-maintenance.md)
 5. 작업 대상과 직접 연관된 도메인 문서
+
+### 파생 문서 점검 절차
+1. 작업 시작 시 에이전트별 파생 문서(`CLAUDE.md`, `GEMINI.md`, `COPILOT.md`) 존재 여부를 확인합니다.
+2. 파생 문서가 있으면 해당 문서를 우선 읽고 `AGENTS.md`와 함께 기준으로 사용합니다.
+3. 파생 문서가 없으면 `AGENTS.md` 기준으로 진행하고, 필요 시 파생 문서 생성을 제안합니다.
+4. 이미 파생 문서에서 유입된 경우에는 점검 절차를 완료한 것으로 간주합니다.
 
 ### Agent 공통 작업 규칙
 - 코드/문서 변경 전 현재 문서 기준을 먼저 확인합니다.
@@ -53,6 +63,7 @@ Agent는 아래 경로로 컨텍스트를 확장합니다.
 ## 결정사항
 - 이 저장소의 AI Agent 기준 문서는 `AGENTS.md` 단일 문서로 시작합니다.
 - 문서 지식은 허브 기반(README -> docs/README -> 정책/도메인)으로 탐색합니다.
+- 모든 에이전트는 작업 시작 시 파생 문서 존재 여부를 먼저 점검합니다.
 
 ## 미해결 이슈
 - 에이전트별 파생 문서가 실제로 필요해지는 시점의 기준 정의(TBD)
@@ -60,4 +71,5 @@ Agent는 아래 경로로 컨텍스트를 확장합니다.
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
+| 2026-03-09 | 파생 문서 점검 절차(작업 시작 전 확인) 추가 | Codex |
 | 2026-03-09 | AI Agent 단일 진입점 문서 작성 | Codex |

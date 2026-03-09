@@ -1,6 +1,8 @@
 # 건물 설계 초안
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Content Design
@@ -9,6 +11,8 @@
   - [자원 설계 초안](resources.md)
   - [기술 트리 초안](tech-tree.md)
   - [상위 아키텍처](../architecture.md)
+
+</details>
 
 ## 목적
 MVP에 필요한 건물 목록과 역할을 정의하여 구현 우선순위를 정리합니다.
@@ -21,14 +25,22 @@ MVP에 필요한 건물 목록과 역할을 정의하여 구현 우선순위를 
 | 건물 | 역할 | 입력 | 출력 | 해금 단계 |
 | --- | --- | --- | --- | --- |
 | Miner Mk1 | 기초 채굴 자동화 | 전력 | Ore Shard | Tier 1 |
+| Miner Mk2 | 채굴 효율 향상 | 전력 | Ore Shard (고효율) | Tier 2 |
 | Smelter | 기초 제련 | Ore Shard, 전력 | Metal Plate | Tier 1 |
+| Smelter Mk2 | 제련 처리량 향상 | Ore Shard, 전력 | Metal Plate (고처리량) | Tier 2 |
 | Assembler Mk1 | 기초 조립 | Metal Plate, Wire Coil, 전력 | 기초 부품 | Tier 1 |
+| Assembler Mk2 | 조립 처리량/속도 향상 | Metal Plate, Wire Coil, 전력 | 기초/중급 부품 | Tier 2 |
 | Conveyor | 물류 전달 | 아이템 | 아이템 | Tier 1 |
 | Splitter | 물류 분기 | 아이템 | 다중 라인 아이템 | Tier 2 |
 | Power Generator | 전력 공급 | 연료(TBD) | 전력 | Tier 1 |
 | Research Station | 기술 해금 | 연구 재료, 전력 | 기술 포인트 | Tier 2 |
 | Core Drill | 최종 채굴 | 고급 부품, 전력 | Core Fragment | Tier 3 |
 | Jump Drive Fabricator | 엔딩 제작 | 고급 부품, Core Fragment | 점프 드라이브 | Tier 3 |
+
+### 업그레이드 정책 (MVP)
+- 건물 업그레이드 체계는 `Mk1 -> Mk2` 2단계로 제한합니다.
+- MVP 범위에서 `Mk3` 이상 등급은 도입하지 않습니다.
+- 업그레이드 대상은 채굴/제련/조립 핵심 건물부터 적용합니다.
 
 ### 배치/운영 기준
 - 모든 건물은 Grid 기반으로 배치합니다.
@@ -42,12 +54,14 @@ MVP에 필요한 건물 목록과 역할을 정의하여 구현 우선순위를 
 
 ## 결정사항
 - 건물 설계는 역할 중심의 단순 카탈로그로 시작합니다.
+- 건물 업그레이드는 2단계(Mk1, Mk2) 체계를 MVP에 포함합니다.
 - Tier 3 건물은 최종 목표(코어 채굴/탈출 제작)와 직접 연결합니다.
 
 ## 미해결 이슈
-- 건물 업그레이드 체계(Mk2 이상)의 MVP 포함 여부(TBD)
+- 업그레이드 전환 방식(교체형/제자리 업그레이드) 확정 필요(TBD)
 
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
+| 2026-03-09 | 건물 업그레이드 2단계(Mk1/Mk2) 정책 반영 | Codex |
 | 2026-03-09 | 초기 건물 설계 문서 작성 | Codex |

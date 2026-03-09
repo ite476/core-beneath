@@ -1,6 +1,8 @@
 # 기여 가이드
 
-## 문서 정보
+<details>
+<summary>문서 정보 (유지보수용)</summary>
+
 - Status: Active
 - Last Updated: 2026-03-09
 - Owner: Core Beneath Maintainers
@@ -11,6 +13,8 @@
   - [문서 유지보수 정책](docs/document-maintenance.md)
   - [저장소 운영 워크플로](docs/repository-workflow.md)
   - [PR 템플릿](.github/PULL_REQUEST_TEMPLATE.md)
+
+</details>
 
 ## 목적
 이 문서는 저장소 기여자의 공통 작업 절차를 정의합니다. 코드와 문서의 변경이
