@@ -4,7 +4,7 @@
 <summary>문서 정보 (유지보수용)</summary>
 
 - Status: Active
-- Last Updated: 2026-03-09
+- Last Updated: 2026-03-10
 - Owner: Core Beneath Maintainers
 - Source of Truth: README.md
 - Related Docs:
@@ -47,6 +47,7 @@
 9. [docs/content/tech-tree.md](docs/content/tech-tree.md)
 10. [docs/tasks/current-sprint.md](docs/tasks/current-sprint.md)
 11. [docs/tasks/roadmap.md](docs/tasks/roadmap.md)
+12. [docs/repository-workflow.md](docs/repository-workflow.md)
 
 ### 역할별 빠른 시작
 | 역할 | 시작 문서 | 목적 |
@@ -55,7 +56,7 @@
 | 게임 기획 | [docs/game-overview.md](docs/game-overview.md) | 비전/경험 목표 확인 |
 | 시스템 구현 | [docs/architecture.md](docs/architecture.md) | v0 아키텍처 기준 확인 |
 | 콘텐츠 설계 | [docs/content/resources.md](docs/content/resources.md) | 자원-건물-기술 연계 확인 |
-| AI Agent | [AGENTS.md](AGENTS.md) | 작업 전 필수 문서 경로 확인 |
+| AI Agent | [AGENTS.md](AGENTS.md) | 작업 전 필수 문서 경로 및 PR 운영 규칙 확인 |
 
 ### English Summary
 The Core Beneath is a top-down automation game prototype.  
@@ -80,4 +81,5 @@ before code production.
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
+| 2026-03-10 | 추천 읽기 순서에 저장소 운영 워크플로를 추가하고 AI Agent 온보딩 설명 보강 | Codex |
 | 2026-03-09 | 문서 허브 기반 입구 문서로 전면 개편 | Codex |
