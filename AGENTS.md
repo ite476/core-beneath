@@ -4,13 +4,15 @@
 <summary>문서 정보 (유지보수용)</summary>
 
 - Status: Active
-- Last Updated: 2026-03-09
+- Last Updated: 2026-03-10
 - Owner: Core Beneath Maintainers
 - Source of Truth: AGENTS.md
 - Related Docs:
   - [문서 허브](docs/README.md)
   - [문서 스타일 가이드](docs/document-style-guide.md)
   - [문서 유지보수 정책](docs/document-maintenance.md)
+  - [기여 가이드](CONTRIBUTING.md)
+  - [저장소 운영 워크플로](docs/repository-workflow.md)
 
 </details>
 
@@ -28,7 +30,9 @@
 2. [docs/README.md](docs/README.md)
 3. [docs/document-style-guide.md](docs/document-style-guide.md)
 4. [docs/document-maintenance.md](docs/document-maintenance.md)
-5. 작업 대상과 직접 연관된 도메인 문서
+5. [CONTRIBUTING.md](CONTRIBUTING.md)
+6. [docs/repository-workflow.md](docs/repository-workflow.md)
+7. 작업 대상과 직접 연관된 도메인 문서
 
 ### 파생 문서 점검 절차
 1. 작업 시작 시 에이전트별 파생 문서(`CLAUDE.md`, `GEMINI.md`, `COPILOT.md`) 존재 여부를 확인합니다.
@@ -41,13 +45,21 @@
 - 구현 변경이 있으면 연관 문서를 같은 PR에서 함께 수정합니다.
 - 문서 수정 시 `Last Updated`와 `변경 이력`을 갱신합니다.
 - 문서 링크는 GitHub 렌더링에서 동작하는 상대 경로로 작성합니다.
+- PR 생성 시 [docs/repository-workflow.md](docs/repository-workflow.md)의 라벨/마일스톤 정책을 확인하고 PR 본문에 권장 라벨/마일스톤 적용안을 명시합니다.
 
 ### 재귀적 지식 접근 경로
 Agent는 아래 경로로 컨텍스트를 확장합니다.
 1. 진입점 문서 확인: `AGENTS.md`
 2. 허브 문서 확인: `docs/README.md`
-3. 정책 문서 확인: 스타일/유지보수/기여 규약
+3. 정책 문서 확인: 스타일/유지보수/기여/저장소 운영 규약
 4. 도메인 문서 확인: 게임/아키텍처/콘텐츠/작업 문서
+
+
+### 기본 참조 메모리(에이전트 운영 메모)
+- 이 저장소에서 에이전트의 기본 참조 메모리는 `AGENTS.md`입니다.
+- 이후 세션에서도 작업 시작 시 `AGENTS.md -> README.md -> docs/README.md -> CONTRIBUTING.md -> docs/repository-workflow.md` 순으로 우선 확인합니다.
+- PR 본문에는 최소 1회 `권장 라벨`과 `권장 마일스톤`을 명시하여 리뷰어가 바로 반영할 수 있게 합니다.
+- 추가 지시가 없어도 위 규칙을 기본 동작으로 적용합니다.
 
 ### 에이전트별 문서 파생 원칙
 - 현재는 `AGENTS.md`만 운영합니다.
@@ -71,5 +83,6 @@ Agent는 아래 경로로 컨텍스트를 확장합니다.
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
+| 2026-03-10 | PR 라벨/마일스톤 정책 기본 반영 및 에이전트 기본 참조 메모 규칙 추가 | Codex |
 | 2026-03-09 | 파생 문서 점검 절차(작업 시작 전 확인) 추가 | Codex |
 | 2026-03-09 | AI Agent 단일 진입점 문서 작성 | Codex |

@@ -4,7 +4,7 @@
 <summary>문서 정보 (유지보수용)</summary>
 
 - Status: Active
-- Last Updated: 2026-03-09
+- Last Updated: 2026-03-10
 - Owner: Core Beneath Maintainers
 - Source of Truth: docs/README.md
 - Related Docs:
@@ -64,7 +64,7 @@
 | 게임 기획자 | [game-overview.md](game-overview.md) | [mvp-scope.md](mvp-scope.md) |
 | 콘텐츠 디자이너 | [content/resources.md](content/resources.md) | [content/tech-tree.md](content/tech-tree.md) |
 | PM/리드 | [tasks/roadmap.md](tasks/roadmap.md) | [tasks/current-sprint.md](tasks/current-sprint.md) |
-| AI Agent | [../AGENTS.md](../AGENTS.md) | [document-style-guide.md](document-style-guide.md) |
+| AI Agent | [../AGENTS.md](../AGENTS.md) | [repository-workflow.md](repository-workflow.md) |
 
 ### 문서 링크 규칙 (GitHub 렌더링 기준)
 - 문서 간 링크는 상대 경로를 사용합니다.
@@ -86,4 +86,5 @@
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
+| 2026-03-10 | AI Agent 역할의 다음 문서를 저장소 운영 워크플로로 조정 | Codex |
 | 2026-03-09 | 문서 허브 초안 작성 | Codex |
