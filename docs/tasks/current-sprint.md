@@ -4,7 +4,7 @@
 <summary>문서 정보 (유지보수용)</summary>
 
 - Status: Active
-- Last Updated: 2026-03-09
+- Last Updated: 2026-03-10
 - Owner: Product Lead + Tech Lead
 - Source of Truth: docs/tasks/current-sprint.md
 - Related Docs:
@@ -28,7 +28,7 @@
 - [x] 문서 허브 및 운영 정책 문서 정비
 - [x] 코어 도메인 문서(개요/MVP/루프/아키텍처/콘텐츠) 작성
 - [ ] Unity LTS 프로젝트 초기 생성
-- [ ] 기본 폴더 구조 반영
+- [x] 기본 폴더 구조 반영
 - [ ] 첫 플레이어 씬(카메라 + Grid 베이스) 생성
 - [ ] 문서 품질 CI 게이트 활성화 확인
 
@@ -56,4 +56,5 @@
 ## 변경 이력
 | 날짜 | 변경 내용 | 작성자 |
 | --- | --- | --- |
+| 2026-03-10 | 권장 Unity 폴더 구조를 저장소에 반영하고 체크리스트 상태 갱신 | Codex |
 | 2026-03-09 | 초기 스프린트 문서 작성 | Codex |
